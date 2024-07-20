@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Instagram</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<!-- sidebar -->
+		<div id="side-bar">
+			<img
+				src="./public/logo.png"
+				alt="logo"
+				id="logo-img"
+			/>
+			<ul id="side-bar_navigation">
+				<li class="nav-item active">
+					<img
+						src="./public/home.png"
+						alt="Home"
+					/>
+					<div class="nav-item__text"><p>Home</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/search.png"
+						alt="Search"
+					/>
+					<div class="nav-item__text"><p>Search</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/explore.png "
+						alt="Explore"
+					/>
+					<div class="nav-item__text"><p>Explore</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/reels.png"
+						alt="Reels"
+					/>
+					<div class="nav-item__text"><p>Reels</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/messages.png"
+						alt="Messages"
+					/>
+					<div class="nav-item__text"><p>Messages</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/notifications.png"
+						alt="Notifications"
+					/>
+					<div class="nav-item__text"><p>Notifications</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/create.png"
+						alt="Create"
+					/>
+					<div class="nav-item__text"><p>Create</p></div>
+				</li>
+				<li class="nav-item">
+					<img
+						src="./public/profile.png"
+						alt="Profile"
+					/>
+					<div class="nav-item__text"><p>Profile</p></div>
+				</li>
+			</ul>
+			<div id="more-item">
+				<img
+					src="./public/hamburger.png"
+					alt="More"
+				/>
+				<div id="more-item__text"><p>More</p></div>
+			</div>
+		</div>
+
+		<!-- main content -->
+		<div id="main-content">
+			<!-- Stories -->
+			<div id="stories-container">
+				<div id="stories">
+					<div class="story">
+						<img
+							src="./public/story_frame.png"
+							alt="frame"
+							class="story-frame"
+						/>
+						<img
+							src="./public/pfp.png"
+							alt="profile pic"
+							class="story-pic"
+						/>
+						<p>somename</p>
+					</div>
+					<div class="story">
+						<img
+							src="./public/story_frame.png"
+							alt="frame"
+							class="story-frame"
+						/>
+						<img
+							src="./public/pfp.png"
+							alt="profile pic"
+							class="story-pic"
+						/>
+						<p>somename</p>
+					</div>
+					<div class="story">
+						<img
+							src="./public/story_frame.png"
+							alt="frame"
+							class="story-frame"
+						/>
+						<img
+							src="./public/pfp.png"
+							alt="profile pic"
+							class="story-pic"
+						/>
+						<p>somename</p>
+					</div>
+					<div class="story">
+						<img
+							src="./public/story_frame.png"
+							alt="frame"
+							class="story-frame"
+						/>
+						<img
+							src="./public/pfp.png"
+							alt="profile pic"
+							class="story-pic"
+						/>
+						<p>somename</p>
+					</div>
+					<div class="story">
+						<img
+							src="./public/story_frame.png"
+							alt="frame"
+							class="story-frame"
+						/>
+						<img
+							src="./public/pfp.png"
+							alt="profile pic"
+							class="story-pic"
+						/>
+						<p>somename</p>
+					</div>
+					<div class="story">
+						<img
+							src="./public/story_frame.png"
+							alt="frame"
+							class="story-frame"
+						/>
+						<img
+							src="./public/pfp.png"
+							alt="profile pic"
+							class="story-pic"
+						/>
+						<p>somename</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Posts -->
+			<div id="posts-container">
+				<div id="posts">
+					<div class="post">
+						<div class="post-head">
+							<div class="profile">
+								<img
+									src="./public/story_frame.png"
+									alt="frame"
+									class="profile-frame"
+								/>
+								<img
+									src="./public/pfp.png"
+									alt="profile pic"
+									class="profile-pic"
+								/>
+								<div class="profile-name">
+									<p><strong>somename</strong></p>
+									<img
+										src="./public/checkmark.png"
+										alt="checkmark"
+										class="checkmark"
+									/>
+									<p class="special-text">&#8226; 5h</p>
+								</div>
+							</div>
+							<p><strong>...</strong></p>
+						</div>
+						<img
+							src="./public/post_body.png"
+							alt="post body"
+							class="post-body"
+						/>
+						<div class="post-info">
+							<div class="post-interaction">
+								<div class="interact">
+									<img
+										src="./public/like.png"
+										alt="like button"
+									/>
+									<img
+										src="./public/comment.png"
+										alt="comment button"
+									/>
+									<img
+										src="./public/share.png"
+										alt="share button"
+									/>
+								</div>
+								<img
+									src="./public/save.png"
+									alt="save post"
+								/>
+							</div>
+							<p><strong>189,237 likes</strong></p>
+							<p><strong>somename</strong> Lorem ipsum dolor sit amet.</p>
+							<div class="info-text">
+								<p><strong>See translation</strong></p>
+								<p class="special-text">View all 13,982 comments</p>
+								<div class="add-comment">
+									<p>Add a comment...</p>
+									<img
+										src="./public/emojis.png"
+										alt="emojis"
+										class="emoji"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post">
+						<div class="post-head">
+							<div class="profile">
+								<img
+									src="./public/story_frame.png"
+									alt="frame"
+									class="profile-frame"
+								/>
+								<img
+									src="./public/pfp.png"
+									alt="profile pic"
+									class="profile-pic"
+								/>
+								<div class="profile-name">
+									<p><strong>somename</strong></p>
+									<img
+										src="./public/checkmark.png"
+										alt="checkmark"
+										class="checkmark"
+									/>
+									<p class="special-text">&#8226; 5h</p>
+								</div>
+							</div>
+							<a id="dot-menu">...</a>
+						</div>
+						<img
+							src="./public/post_body.png"
+							alt="post body"
+							class="post-body"
+						/>
+						<div class="post-info">
+							<div class="post-interaction">
+								<div class="interact">
+									<img
+										src="./public/like.png"
+										alt="like button"
+									/>
+									<img
+										src="./public/comment.png"
+										alt="comment button"
+									/>
+									<img
+										src="./public/share.png"
+										alt="share button"
+									/>
+								</div>
+								<img
+									src="./public/save.png"
+									alt="save post"
+								/>
+							</div>
+							<p><strong>189,237 likes</strong></p>
+							<p><strong>somename</strong> Lorem ipsum dolor sit amet.</p>
+							<div class="info-text">
+								<p><strong>See translation</strong></p>
+								<p class="special-text">View all 13,982 comments</p>
+								<div class="add-comment">
+									<p>Add a comment...</p>
+									<img
+										src="./public/emojis.png"
+										alt="emojis"
+										class="emoji"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post">
+						<div class="post-head">
+							<div class="profile">
+								<img
+									src="./public/story_frame.png"
+									alt="frame"
+									class="profile-frame"
+								/>
+								<img
+									src="./public/pfp.png"
+									alt="profile pic"
+									class="profile-pic"
+								/>
+								<div class="profile-name">
+									<p><strong>somename</strong></p>
+									<img
+										src="./public/checkmark.png"
+										alt="checkmark"
+										class="checkmark"
+									/>
+									<p class="special-text">&#8226; 5h</p>
+								</div>
+							</div>
+							<a id="dot-menu">...</a>
+						</div>
+						<img
+							src="./public/post_body.png"
+							alt="post body"
+							class="post-body"
+						/>
+						<div class="post-info">
+							<div class="post-interaction">
+								<div class="interact">
+									<img
+										src="./public/like.png"
+										alt="like button"
+									/>
+									<img
+										src="./public/comment.png"
+										alt="comment button"
+									/>
+									<img
+										src="./public/share.png"
+										alt="share button"
+									/>
+								</div>
+								<img
+									src="./public/save.png"
+									alt="save post"
+								/>
+							</div>
+							<p><strong>189,237 likes</strong></p>
+							<p><strong>somename</strong> Lorem ipsum dolor sit amet.</p>
+							<div class="info-text">
+								<p><strong>See translation</strong></p>
+								<p class="special-text">View all 13,982 comments</p>
+								<div class="add-comment">
+									<p>Add a comment...</p>
+									<img
+										src="./public/emojis.png"
+										alt="emojis"
+										class="emoji"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="post">
+						<div class="post-head">
+							<div class="profile">
+								<img
+									src="./public/story_frame.png"
+									alt="frame"
+									class="profile-frame"
+								/>
+								<img
+									src="./public/pfp.png"
+									alt="profile pic"
+									class="profile-pic"
+								/>
+								<div class="profile-name">
+									<p><strong>somename</strong></p>
+									<img
+										src="./public/checkmark.png"
+										alt="checkmark"
+										class="checkmark"
+									/>
+									<p class="special-text">&#8226; 5h</p>
+								</div>
+							</div>
+							<a id="dot-menu">...</a>
+						</div>
+						<img
+							src="./public/post_body.png"
+							alt="post body"
+							class="post-body"
+						/>
+						<div class="post-info">
+							<div class="post-interaction">
+								<div class="interact">
+									<img
+										src="./public/like.png"
+										alt="like button"
+									/>
+									<img
+										src="./public/comment.png"
+										alt="comment button"
+									/>
+									<img
+										src="./public/share.png"
+										alt="share button"
+									/>
+								</div>
+								<img
+									src="./public/save.png"
+									alt="save post"
+								/>
+							</div>
+							<p><strong>189,237 likes</strong></p>
+							<p><strong>somename</strong> Lorem ipsum dolor sit amet.</p>
+							<div class="info-text">
+								<p><strong>See translation</strong></p>
+								<p class="special-text">View all 13,982 comments</p>
+								<div class="add-comment">
+									<p>Add a comment...</p>
+									<img
+										src="./public/emojis.png"
+										alt="emojis"
+										class="emoji"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="side-bar-right">
+			<div id="account">
+				<div id="current">
+					<img
+						src="./public/current.png"
+						alt="avatar"
+					/>
+					<div id="account-name">
+						<p class="user-name">User_</p>
+						<p class="user grey-effect">User</p>
+					</div>
+				</div>
+				<p class="blue-effect">Switch</p>
+			</div>
+			<div id="suggestions">
+				<div id="suggestions-title">
+					<p class="grey-effect">Suggestions for you</p>
+					<p>See All</p>
+				</div>
+				<ul id="suggestions-list">
+					<li>
+						<div class="list-item">
+							<img
+								src="./public/current.png"
+								alt="avatar"
+							/>
+							<div class="account-name">
+								<p class="user-name">UserName</p>
+								<p class="user grey-effect">Follows you</p>
+							</div>
+						</div>
+						<p class="blue-effect">Follow</p>
+					</li>
+					<li>
+						<div class="list-item">
+							<img
+								src="./public/current.png"
+								alt="avatar"
+							/>
+							<div class="account-name">
+								<p class="user-name">UserName</p>
+								<p class="user grey-effect">Follows you</p>
+							</div>
+						</div>
+						<p class="blue-effect">Follow</p>
+					</li>
+					<li>
+						<div class="list-item">
+							<img
+								src="./public/current.png"
+								alt="avatar"
+							/>
+							<div class="account-name">
+								<p class="user-name">UserName</p>
+								<p class="user grey-effect">Follows you</p>
+							</div>
+						</div>
+						<p class="blue-effect">Follow</p>
+					</li>
+					<li>
+						<div class="list-item">
+							<img
+								src="./public/current.png"
+								alt="avatar"
+							/>
+							<div class="account-name">
+								<p class="user-name">UserName</p>
+								<p class="user grey-effect">Followed by user_b</p>
+							</div>
+						</div>
+						<p class="blue-effect">Follow</p>
+					</li>
+					<li>
+						<div class="list-item">
+							<img
+								src="./public/current.png"
+								alt="avatar"
+							/>
+							<div class="account-name">
+								<p class="user-name">UserName</p>
+								<p class="user grey-effect">Follows you</p>
+							</div>
+						</div>
+						<p class="blue-effect">Follow</p>
+					</li>
+				</ul>
+			</div>
+			<div id="footer">
+				<div id="footer-nav">
+					<p>About</p>
+					<p>&#8226;</p>
+					<p>Help</p>
+					<p>&#8226;</p>
+					<p>Press</p>
+					<p>&#8226;</p>
+					<p>API</p>
+					<p>&#8226;</p>
+					<p>Jobs</p>
+					<p>&#8226;</p>
+					<p>Privacy</p>
+					<p>&#8226;</p>
+					<p>Terms</p>
+					<p>&#8226;</p>
+					<p>Locations</p>
+					<p>&#8226;</p>
+					<p>Language</p>
+					<p>&#8226;</p>
+					<p>Meta Verified</p>
+				</div>
+				<div id="footer-copyright">
+					<p>&#169; 2024 INSTAGRAM FROM META</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
